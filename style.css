@@ -1,5 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600|Roboto+Mono:300,400');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    min-height: 100vh;
+    background: radial-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(./background.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 75%;
+    height: 10px;
+    border: 2px solid #b2b2b2;
+    border-radius: 7px;
+    margin: 0 auto;
+    padding: 2px 1px;
+    overflow: hidden;
+    font-size: 0;
+  }
+  
+  .box {
+    width: 9px;
+    height: 100%;
+    background: black;
+    display: inline-block;
+    margin-right: 2px;
+    animation: loader 2s infinite;
+    animation-timing-function: linear;
+  }
+  
+  .logo {
+    padding: 1rem;
+  }
+  
+  .logo p {
+    padding: 0.5rem;
+  }
+  
+  
+  .mid {
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 36px;
+    padding: 0.5rem;
+  }
+  
+  .mid span {
+    font-size: 2.3rem;
+    display: inline-block;
+    vertical-align: top;
+    color: #FF6821;
+    margin-top: -8px;
+    padding: 0 0.5rem;
+  }
+  
+  .logo .bottom {
+    font-size: 2.8rem;
+    font-weight: 300;
+    line-height: 30px;
+    margin-left: 5px;
+  }
+  
+  @keyframes loader {
+    0% {
+      transform: translate(-30px);
+    }
+  
+    100% {
+      transform: translate(150px);
+    }
+  }
+
+
+
+  
