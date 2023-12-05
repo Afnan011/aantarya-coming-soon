@@ -11,8 +11,9 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 section{
-    min-height: 100vh;
-    background: radial-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(./background.jpg);
+    min-height: 100vh;  
+    background: radial-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    radial-gradient(circle, rgba(5, 165, 223, 0.9) , rgba(31, 70,127, 1));
     background-size: cover;
     background-position: center;
     
@@ -76,11 +77,11 @@ section{
   
   @keyframes loader {
     0% {
-      transform: translate(-30px);
+      transform: translate(0);
     }
   
     100% {
-      transform: translate(150px);
+      transform: translate(240px);
     }
   }
 
