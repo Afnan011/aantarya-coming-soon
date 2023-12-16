@@ -126,4 +126,21 @@ section {
   .logo .bottom {
     line-height: 85%;
   }
+
+  .video-container video{
+    height: 100vh;
+    margin: 1rem;
+    top: 30%;
+  }
+
+  section{
+    align-items: flex-end;
+    padding-bottom: 7rem;
+  }
+
+
+
+
+
+
 }
